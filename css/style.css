@@ -256,8 +256,6 @@ transform: translateY(0px);
       
         color: aliceblue;
         margin: 73px 0px auto 20px;
-        text-align: center;
-        text-align: center;
  }
 
  .contant-home .header-home{
@@ -290,7 +288,7 @@ transform: translateY(0px);
 .gallery-items{
     display: grid;
     grid-template-columns:repeat(4,auto);
-    grid-template-rows: 500px;
+    grid-template-rows: 370px;
     grid-gap: 20px;
  
    
@@ -347,7 +345,7 @@ transform: scale(1);
         margin-top: 150px;
      
     }
-
+/*
 .services-items::after{
 position: absolute;
 content: "";
@@ -358,12 +356,13 @@ right: 0;
 border: 8px solid var(--subcolor);
 z-index: -1;
 box-shadow: 4px 1px 13px 4px rgba(0, 0, 0,0.4);
-}
+}*/
 .services-items{
     display: grid;
-    grid-template-columns: repeat(2,353px);
+    grid-template-columns: repeat(3,353px);
     grid-template-rows: repeat(2,212px);
     justify-content: space-around;
+    align-items: center;
     row-gap: 20px;
 }
 
@@ -430,20 +429,14 @@ transform: rotateY(180deg);
 }
 
 .services-items div.margin-top{
-    margin-top: -100px;
+    margin-top: -120px;
 }
 /************review************/
-.review{
 
-   
-    margin-top: 100px;
-   
-   
-}
 .contant-reviews{
-   background-color: var(--maincolor);
+   
 width: 100%;
-height: 80vh;
+height: 50vh;
 
 }
 .review-items{
@@ -533,6 +526,7 @@ button.but2{
 }
 .polites-review{
  justify-content: flex-end;
+ padding: 20px;
 }
 ul.polit-review>li{
     width: 50px;
